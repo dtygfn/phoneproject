@@ -1,0 +1,6 @@
+2018-12-12 23:27:27,061 - [Etl.mr.Etl2HdfsDriver.main(Etl2HdfsDriver.java:30)] ERROR [Etl.mr.Etl2HdfsDriver] - 执行etl异常
+java.lang.RuntimeException: 输入路径不存在/phoneproject/answer_paper/part-m-00000
+	at Etl.mr.Etl2HdfsDriver.handleInputOutput(Etl2HdfsDriver.java:71)
+	at Etl.mr.Etl2HdfsDriver.run(Etl2HdfsDriver.java:51)
+	at org.apache.hadoop.util.ToolRunner.run(ToolRunner.java:70)
+	at Etl.mr.Etl2HdfsDriver.main(Etl2HdfsDriver.java:28)

@@ -1,0 +1,225 @@
+2018-12-12 17:18:32,224  WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2018-12-12 17:18:36,079  WARN [org.apache.hadoop.mapred.LocalJobRunner] - job_local67529566_0001
+java.lang.Exception: java.lang.NumberFormatException: For input string: "BK181013009"
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:462)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:522)
+Caused by: java.lang.NumberFormatException: For input string: "BK181013009"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Integer.parseInt(Integer.java:580)
+	at java.lang.Integer.parseInt(Integer.java:615)
+	at Etl.mr.Etl2HdfsMapper.map(Etl2HdfsMapper.java:64)
+	at Etl.mr.Etl2HdfsMapper.map(Etl2HdfsMapper.java:21)
+	at org.apache.hadoop.mapreduce.Mapper.run(Mapper.java:146)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:787)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:341)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:243)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-12-12 17:20:23,917  WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2018-12-12 17:20:28,077  WARN [org.apache.hadoop.mapred.LocalJobRunner] - job_local1912771670_0001
+java.lang.Exception: java.lang.ClassCastException: java.math.BigDecimal cannot be cast to java.lang.Integer
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:462)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:522)
+Caused by: java.lang.ClassCastException: java.math.BigDecimal cannot be cast to java.lang.Integer
+	at Etl.util.JsonUtil.getJsonmap(JsonUtil.java:29)
+	at Etl.mr.Etl2HdfsMapper.map(Etl2HdfsMapper.java:51)
+	at Etl.mr.Etl2HdfsMapper.map(Etl2HdfsMapper.java:21)
+	at org.apache.hadoop.mapreduce.Mapper.run(Mapper.java:146)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:787)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:341)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:243)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-12-12 17:23:34,354  WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2018-12-12 17:23:44,467  WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2018-12-12 17:28:06,210  WARN [org.apache.hadoop.mapred.LocalJobRunner] - job_local253385433_0001
+java.lang.Exception: java.lang.ClassCastException: java.math.BigDecimal cannot be cast to java.lang.Integer
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:462)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:522)
+Caused by: java.lang.ClassCastException: java.math.BigDecimal cannot be cast to java.lang.Integer
+	at Etl.util.JsonUtil.getJsonmap(JsonUtil.java:28)
+	at Etl.mr.Etl2HdfsMapper.map(Etl2HdfsMapper.java:51)
+	at Etl.mr.Etl2HdfsMapper.map(Etl2HdfsMapper.java:21)
+	at org.apache.hadoop.mapreduce.Mapper.run(Mapper.java:146)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:787)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:341)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:243)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266)
+	at java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-12-12 17:35:41,043  WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2018-12-12 17:35:44,642  WARN [org.apache.hadoop.mapred.LocalJobRunner] - job_local1521842752_0001
+java.lang.Exception: java.lang.ClassCastException: java.math.BigDecimal cannot be cast to java.lang.Integer
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:462)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:522)
+Caused by: java.lang.ClassCastException: java.math.BigDecimal cannot be cast to java.lang.Integer
+	at Etl.util.JsonUtil.getJsonmap(JsonUtil.java:28)
+	at Etl.mr.Etl2HdfsMapper.map(Etl2HdfsMapper.java:51)
+	at Etl.mr.Etl2HdfsMapper.map(Etl2HdfsMapper.java:21)
+	at org.apache.hadoop.mapreduce.Mapper.run(Mapper.java:146)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:787)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:341)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:243)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-12-12 17:37:25,699  WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2018-12-12 17:37:28,920  WARN [org.apache.hadoop.mapred.LocalJobRunner] - job_local1579417076_0001
+java.lang.Exception: java.lang.ClassCastException: java.math.BigDecimal cannot be cast to java.lang.Integer
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:462)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:522)
+Caused by: java.lang.ClassCastException: java.math.BigDecimal cannot be cast to java.lang.Integer
+	at Etl.util.JsonUtil.getJsonmap(JsonUtil.java:28)
+	at Etl.mr.Etl2HdfsMapper.map(Etl2HdfsMapper.java:51)
+	at Etl.mr.Etl2HdfsMapper.map(Etl2HdfsMapper.java:21)
+	at org.apache.hadoop.mapreduce.Mapper.run(Mapper.java:146)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:787)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:341)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:243)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-12-12 17:41:04,873  WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2018-12-12 17:41:08,492  WARN [org.apache.hadoop.mapred.LocalJobRunner] - job_local1727169188_0001
+java.lang.Exception: java.lang.ClassCastException: java.math.BigDecimal cannot be cast to java.lang.Integer
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:462)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:522)
+Caused by: java.lang.ClassCastException: java.math.BigDecimal cannot be cast to java.lang.Integer
+	at Etl.util.JsonUtil.getJsonmap(JsonUtil.java:28)
+	at Etl.mr.Etl2HdfsMapper.map(Etl2HdfsMapper.java:51)
+	at Etl.mr.Etl2HdfsMapper.map(Etl2HdfsMapper.java:21)
+	at org.apache.hadoop.mapreduce.Mapper.run(Mapper.java:146)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:787)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:341)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:243)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266)
+	at java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-12-12 17:41:19,729  WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2018-12-12 17:41:22,927  WARN [org.apache.hadoop.mapred.LocalJobRunner] - job_local435179756_0001
+java.lang.Exception: java.lang.ClassCastException: java.math.BigDecimal cannot be cast to java.lang.Integer
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:462)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:522)
+Caused by: java.lang.ClassCastException: java.math.BigDecimal cannot be cast to java.lang.Integer
+	at Etl.util.JsonUtil.getJsonmap(JsonUtil.java:28)
+	at Etl.mr.Etl2HdfsMapper.map(Etl2HdfsMapper.java:51)
+	at Etl.mr.Etl2HdfsMapper.map(Etl2HdfsMapper.java:21)
+	at org.apache.hadoop.mapreduce.Mapper.run(Mapper.java:146)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:787)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:341)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:243)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266)
+	at java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-12-12 17:41:35,211  WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2018-12-12 17:41:38,542  WARN [org.apache.hadoop.mapred.LocalJobRunner] - job_local558685706_0001
+java.lang.Exception: java.lang.ClassCastException: java.math.BigDecimal cannot be cast to java.lang.Integer
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:462)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:522)
+Caused by: java.lang.ClassCastException: java.math.BigDecimal cannot be cast to java.lang.Integer
+	at Etl.util.JsonUtil.getJsonmap(JsonUtil.java:28)
+	at Etl.mr.Etl2HdfsMapper.map(Etl2HdfsMapper.java:51)
+	at Etl.mr.Etl2HdfsMapper.map(Etl2HdfsMapper.java:21)
+	at org.apache.hadoop.mapreduce.Mapper.run(Mapper.java:146)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:787)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:341)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:243)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266)
+	at java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-12-12 17:46:03,972  WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2018-12-12 17:47:26,949  WARN [org.apache.hadoop.mapred.LocalJobRunner] - job_local504906161_0001
+java.lang.Exception: java.lang.ClassCastException: java.math.BigDecimal cannot be cast to java.lang.Integer
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:462)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:522)
+Caused by: java.lang.ClassCastException: java.math.BigDecimal cannot be cast to java.lang.Integer
+	at Etl.util.JsonUtil.getJsonmap(JsonUtil.java:28)
+	at Etl.mr.Etl2HdfsMapper.map(Etl2HdfsMapper.java:51)
+	at Etl.mr.Etl2HdfsMapper.map(Etl2HdfsMapper.java:21)
+	at org.apache.hadoop.mapreduce.Mapper.run(Mapper.java:146)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:787)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:341)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:243)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266)
+	at java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-12-12 17:47:41,562  WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2018-12-12 17:51:19,303  WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2018-12-12 17:51:22,561  WARN [org.apache.hadoop.mapred.LocalJobRunner] - job_local941501799_0001
+java.lang.Exception: java.lang.ClassCastException: java.math.BigDecimal cannot be cast to java.lang.Integer
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:462)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:522)
+Caused by: java.lang.ClassCastException: java.math.BigDecimal cannot be cast to java.lang.Integer
+	at Etl.util.JsonUtil.getJsonmap(JsonUtil.java:28)
+	at Etl.mr.Etl2HdfsMapper.map(Etl2HdfsMapper.java:51)
+	at Etl.mr.Etl2HdfsMapper.map(Etl2HdfsMapper.java:21)
+	at org.apache.hadoop.mapreduce.Mapper.run(Mapper.java:146)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:787)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:341)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:243)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-12-12 18:04:11,335  WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2018-12-12 18:04:14,357  WARN [org.apache.hadoop.mapred.LocalJobRunner] - job_local1226243011_0001
+java.lang.Exception: java.lang.ClassCastException: java.lang.Integer cannot be cast to java.lang.Double
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:462)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:522)
+Caused by: java.lang.ClassCastException: java.lang.Integer cannot be cast to java.lang.Double
+	at Etl.util.JsonUtil.getJsonmap(JsonUtil.java:28)
+	at Etl.mr.Etl2HdfsMapper.map(Etl2HdfsMapper.java:51)
+	at Etl.mr.Etl2HdfsMapper.map(Etl2HdfsMapper.java:21)
+	at org.apache.hadoop.mapreduce.Mapper.run(Mapper.java:146)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:787)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:341)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:243)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-12-12 18:06:30,213  WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2018-12-12 18:13:06,398  WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2018-12-12 18:44:44,578  WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2018-12-12 18:47:59,332  WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2018-12-12 18:58:50,002  WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2018-12-12 19:06:18,383  WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2018-12-12 19:09:09,605  WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2018-12-12 19:09:26,461  WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2018-12-12 19:14:32,408  WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2018-12-12 23:27:27,061 ERROR [Etl.mr.Etl2HdfsDriver] - 执行etl异常
+java.lang.RuntimeException: 输入路径不存在/phoneproject/answer_paper/part-m-00000
+	at Etl.mr.Etl2HdfsDriver.handleInputOutput(Etl2HdfsDriver.java:71)
+	at Etl.mr.Etl2HdfsDriver.run(Etl2HdfsDriver.java:51)
+	at org.apache.hadoop.util.ToolRunner.run(ToolRunner.java:70)
+	at Etl.mr.Etl2HdfsDriver.main(Etl2HdfsDriver.java:28)
+2018-12-12 23:51:04,997  WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2018-12-12 23:53:59,647  WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2018-12-12 23:58:39,128  WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
